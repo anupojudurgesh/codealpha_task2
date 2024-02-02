@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    overflow-x: hidden;
+    background-image: url(stbg.jpg );
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.tradingview-widget-container{
+    position: relative;
+    left: 270px;
+}
+.tradingview-widget-container__widget{
+    filter: drop-shadow(100,0,50,10);
+}
+#head{
+    font-family: 'poppins';
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: yellow;
+    filter: drop-shadow(black 1rem 1rem 10px);
+}
+#head2{
+    font-family: 'poppins';
+    color: aliceblue;
+    text-align: center; 
+    padding: 10px;
+    font-size: 30px;
+    filter: drop-shadow(black 1rem 1rem 10px);
+}
+.heading{
+    margin: 50px;
+}
+footer{
+    color: aliceblue;
+    text-align: end;
+    padding: 10px;
+}
